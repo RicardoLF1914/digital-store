@@ -15,18 +15,25 @@
         </header>
 
         <main>
-            <form class="criacao_de_conta">
+            <form class="logar">
                 <div class="criar_conta">
-                    <h1>Crie sua conta</h1>
-                    <h2>Já possui conta? Entre&nbsp;<a href="./login.html">aqui</a>.</h2>
+                    <h1>Acesse sua conta</h1>
+                    <h2>Novo cliente? Então registre-se&nbsp;<a href="./index.html">aqui</a>.</h2>
                 </div>
 
                 <div class="email">
-                    <label class="email_label" for="email">Email *</label>
-                    <input class="email_input" type="email" id="email" name="email" placeholder="Insira seu email" required>
+                    <label class="email_label" for="email">Login *</label>
+                    <input class="email_input" type="text" id="login" name="login" placeholder="Insira seu login ou email" required>
                 </div>
 
-                <button>Criar conta</button>
+                <div class="email">
+                    <label class="email_label" for="user_password">Senha *</label>
+                    <input class="email_input" type="password" id="user_password" name="user_password" placeholder="Insira sua senha" required>
+                </div>
+
+                <a class="esqueci_senha" href="#">Esqueci minha senha</a>
+
+                <button>Acessar conta</button>
 
                 <div class="login_alt">
                     <p>Ou faça login com</p>

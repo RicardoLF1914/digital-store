@@ -37,7 +37,7 @@ form {
     flex-direction: column;
     align-items: center;
     background-color: white;
-    height: 411px;
+    /* height: 411px; */
     width: 315px;
     margin: 63px 30px;
     padding: 30px;
@@ -108,6 +108,18 @@ form {
         border: none;
         border-radius: 8px;
     }
+}
+
+.criacao_de_conta {
+    height: 411px;
+}
+
+.logar {
+    height: 572px;
+}
+
+.esqueci_senha{
+    color: #474747;
 }
 
 .login_alt {
