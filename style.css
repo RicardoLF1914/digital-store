@@ -11,11 +11,16 @@ html, body {
     height: 100%;
 }
 
+body {
+    background-color: #B5B6F2;
+}
+
 header {
     height: 64px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
 
     a {
         display: flex;
@@ -24,5 +29,103 @@ header {
         font-weight: 600;
         color: #C92071;
         text-decoration: none;
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 411px;
+    width: 315px;
+    margin: 63px 30px;
+    padding: 30px;
+    gap: 30px;
+
+    .criar_conta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 58px;
+        width: 255px;
+
+        h1 {
+            display: flex;
+            align-items: center;
+            height: 34px;
+            color: 1F1F1F;
+            font-size: 22px;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+
+        h2 {
+            display: flex;
+            align-items: center;
+            height: 34px;
+            color: #474747;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 0.25px;
+        }
+
+        a {
+            color: #474747;
+        }
+    }
+
+    .email {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        .email_label {
+            font-size: 12px;
+            font-weight: 700;
+        }
+
+        .email_input {
+            height: 60px;
+            width: 255px;
+            border: none;
+            border-radius: 8px;
+            background-color: #F8F8F8;
+            color: #ABABAB;
+            font-size: 16px;
+            font-weight: 400;
+            padding: 16px 12px;
+        }
+    }
+
+    button {
+        background-color: #C92071;
+        color: #F5F5F5;
+        font-size: 16px;
+        font-weight: 700;
+        height: 48px;
+        width: 255px;
+        border: none;
+        border-radius: 8px;
+    }
+}
+
+.login_alt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    .images {
+        display: flex;
+        justify-content: center;
+        height: 24px;
+        width: 24px;
+        gap: 24px;
+
+        img {
+            height: 24px;
+            width: 24px;
+        }
     }
 }
