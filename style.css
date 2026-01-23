@@ -129,3 +129,86 @@ form {
         }
     }
 }
+
+footer {
+    background-color: #1F1F1F;
+    color: white;
+
+    .logo_footer {
+        display: flex;
+        gap: 4.36px;
+        font-size: 24.46;
+        font-weight: 600;
+        text-decoration: none;
+        margin-left: 20px;
+        padding-top: 53.58px;
+    }
+
+    .about_footer {
+        margin: 20.22px 74px 30px 20px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22px;
+    }
+
+    .social_media {
+        display: flex;
+        gap: 35.8px;
+        margin: 0 16px 40.47px;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+        margin-left: 20px;
+
+        h2 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            line-height: 31px;
+        }
+
+        a {
+            font-size: 16px;
+            font-weight: 400;
+            color: white;
+            text-decoration: none;
+        }
+    }
+
+    .contato {
+        margin: 40px 20px 0;
+
+        h2 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .contato_info {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 31px;
+            margin-right: 74px
+        }
+    }
+
+    hr {
+        margin: 40px 26.04px 23px;
+    }
+
+    .marca {
+        display: flex;
+        justify-content: center;
+        padding: 0 26px 40px;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+}
