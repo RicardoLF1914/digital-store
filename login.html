@@ -15,33 +15,46 @@
         </header>
 
         <main>
-            <form class="logar">
-                <div class="criar_conta">
+            <form>
+                <div class="title_box">
                     <h1>Acesse sua conta</h1>
-                    <h2>Novo cliente? Então registre-se&nbsp;<a href="./index.html">aqui</a>.</h2>
+                    <p>Novo cliente? Então registre-se&nbsp;<a href="./index.html">aqui</a>.</p>
                 </div>
 
-                <div class="email">
-                    <label class="email_label" for="email">Login *</label>
-                    <input class="email_input" type="text" id="login" name="login" placeholder="Insira seu login ou email" required>
+                <div class="input_box">
+                    <label for="email">Login *</label>
+                    <input type="text" id="login" name="login" placeholder="Insira seu login ou email" required>
                 </div>
 
-                <div class="email">
-                    <label class="email_label" for="user_password">Senha *</label>
-                    <input class="email_input" type="password" id="user_password" name="user_password" placeholder="Insira sua senha" required>
+                <div class="input_box">
+                    <label for="user_password">Senha *</label>
+                    <input type="password" id="user_password" name="user_password" placeholder="Insira sua senha" required>
                 </div>
 
-                <a class="esqueci_senha" href="#">Esqueci minha senha</a>
+                <small>
+                    <a class="esqueci_senha" href="#">
+                        Esqueci minha senha
+                    </a>
+                </small>
 
                 <button>Acessar conta</button>
 
-                <div class="login_alt">
+                <div class="else_box">
                     <p>Ou faça login com</p>
 
-                    <div class="images">
-                        <img src="./assets/gmail.svg" alt="gmail logo">
-                        <img src="./assets/facebook.svg" alt="facebook logo">
-                    </div>
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="./assets/gmail.svg" alt="gmail logo">
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="">
+                                <img src="./assets/facebook.svg" alt="facebook logo">
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </form>
         </main>

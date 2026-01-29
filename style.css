@@ -5,14 +5,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
+    list-style: none;
 }
 
 html, body {
     height: 100%;
-}
-
-body {
-    background-color: #B5B6F2;
 }
 
 header {
@@ -32,112 +29,133 @@ header {
     }
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    /* height: 411px; */
-    width: 315px;
-    margin: 63px 30px;
-    padding: 30px;
-    gap: 30px;
+main {
+    padding: 63px 0 82px;
+    background: linear-gradient(#B5B6F2, #EFEFFF);
 
-    .criar_conta {
+    form {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 58px;
-        width: 255px;
+        background-color: white;
+        border-radius: 4px;
+        width: 315px;
+        margin: 0 auto;
+        padding: 30px;
+        gap: 30px;
 
-        h1 {
+        .title_box {
             display: flex;
+            flex-direction: column;
             align-items: center;
-            height: 34px;
-            color: 1F1F1F;
-            font-size: 22px;
-            font-weight: 700;
-            letter-spacing: 2px;
+            height: 58px;
+            width: 255px;
+
+            h1 {
+                display: flex;
+                align-items: center;
+                height: 34px;
+                color: #1F1F1F;
+                font-size: 22px;
+                font-weight: 700;
+                line-height: 34px;
+                letter-spacing: 2px;
+            }
+
+            p {
+                display: flex;
+                align-items: center;
+                height: 34px;
+                color: #474747;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0.25px;
+            }
+
+            a {
+                color: #474747;
+            }
         }
 
-        h2 {
+        .input_box {
             display: flex;
-            align-items: center;
-            height: 34px;
-            color: #474747;
-            font-size: 14px;
-            font-weight: 400;
-            letter-spacing: 0.25px;
+            flex-direction: column;
+            gap: 5px;
+
+            label {
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0.75px;
+                color: #474747;
+            }
+
+            input {
+                height: 60px;
+                width: 255px;
+                border: none;
+                outline-color: #C92071;
+                border-radius: 8px;
+                background-color: #4747470A;
+                padding: 16px 12px;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 28px;
+                letter-spacing: 0.75px;
+
+                &::placeholder {
+                    color: #66666699;
+                }
+            }
         }
 
-        a {
-            color: #474747;
-        }
-    }
-
-    .email {
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-
-        .email_label {
-            font-size: 12px;
+        button {
+            background-color: #C92071;
+            color: #F5F5F5;
+            font-size: 16px;
             font-weight: 700;
-        }
-
-        .email_input {
-            height: 60px;
+            height: 48px;
             width: 255px;
             border: none;
             border-radius: 8px;
-            background-color: #F8F8F8;
-            color: #ABABAB;
-            font-size: 16px;
-            font-weight: 400;
-            padding: 16px 12px;
+
+            &:active {
+                background-color: #991956;
+            }
         }
     }
 
-    button {
-        background-color: #C92071;
-        color: #F5F5F5;
-        font-size: 16px;
-        font-weight: 700;
-        height: 48px;
-        width: 255px;
-        border: none;
-        border-radius: 8px;
+    .esqueci_senha{
+        color: #474747;
     }
-}
 
-.criacao_de_conta {
-    height: 411px;
-}
-
-.logar {
-    height: 572px;
-}
-
-.esqueci_senha{
-    color: #474747;
-}
-
-.login_alt {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-
-    .images {
+    .else_box {
         display: flex;
-        justify-content: center;
-        height: 24px;
-        width: 24px;
-        gap: 24px;
+        flex-direction: column;
+        margin: 0 auto;
+        gap: 20px;
 
-        img {
+        small {
+            font-weight: 500;
+            color: #474747;
+            font-size: 14px;
+            line-height: 22px;
+            letter-spacing: 0.25px;
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
             height: 24px;
             width: 24px;
+            gap: 24px;
+
+            img {
+                height: 24px;
+                width: 24px;
+            }
         }
     }
 }
@@ -182,7 +200,6 @@ footer {
         }
 
         ul {
-            list-style-type: none;
             line-height: 31px;
         }
 
