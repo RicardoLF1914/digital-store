@@ -217,7 +217,6 @@ footer {
 
         .more {
             display: flex;
-            flex-direction: row;
             gap: 32px;
 
             .info, .category {
