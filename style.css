@@ -124,39 +124,43 @@ main {
                 background-color: #991956;
             }
         }
-    }
 
-    .esqueci_senha{
-        color: #474747;
-    }
-
-    .else_box {
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-        gap: 20px;
-
-        small {
-            font-weight: 500;
+        .esqueci_senha{
             color: #474747;
-            font-size: 14px;
-            line-height: 22px;
-            letter-spacing: 0.25px;
         }
 
-        ul {
+        .else_box {
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             margin: 0 auto;
-            height: 24px;
-            width: 24px;
-            gap: 24px;
+            gap: 20px;
 
-            img {
+            small {
+                font-weight: 500;
+                color: #474747;
+                font-size: 14px;
+                line-height: 22px;
+                letter-spacing: 0.25px;
+            }
+
+            ul {
+                display: flex;
+                justify-content: center;
+                margin: 0 auto;
                 height: 24px;
                 width: 24px;
+                gap: 24px;
+
+                img {
+                    height: 24px;
+                    width: 24px;
+                }
             }
         }
+    }
+
+    .tennis {
+        display: none;
     }
 }
 
